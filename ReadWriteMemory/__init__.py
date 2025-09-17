@@ -242,7 +242,7 @@ class Process(object):
                      'Name': self.name, 'ErrorCode': self.error_code}
             ReadWriteMemoryError(error)
 
-    def writeDouble(self, lp_base_address: int, value: int) -> bool:
+    def writeDouble(self, lp_base_address: int, value: float) -> bool:
         """
         Write data to the process's memory.
 
